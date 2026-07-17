@@ -1,3 +1,7 @@
+https://linux.do/
+
+友情链接
+Linux DO
 友情链接：[LINUX DO](https://linux.do/)
 # LAN InkPad Enhanced
 
