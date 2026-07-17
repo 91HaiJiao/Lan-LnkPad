@@ -1,0 +1,10 @@
+{
+  "appId": "com.laninkpad.enhanced",
+  "appName": "LAN InkPad Enhanced",
+  "webDir": "mobile",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "http",
+    "cleartext": true
+  }
+}

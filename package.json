@@ -1,0 +1,23 @@
+{
+  "name": "lan-inkpad-enhanced",
+  "version": "0.3.1",
+  "private": true,
+  "type": "module",
+  "description": "Enhanced LAN drawing pad with real-time tab streaming, zoom and low-latency ink.",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check server.mjs && node --check desktop/app.js && node --check mobile/app.js && node --check extension/background.js && node --check extension/content.js && node --check extension/popup.js && node --check extension/offscreen.js",
+    "cap:sync": "npx cap sync android",
+    "apk:debug": "npm run cap:sync && cd android && gradlew.bat assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/cli": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "ws": "^8.18.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
