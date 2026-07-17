@@ -1,3 +1,4 @@
+友情链接：[LINUX DO](https://linux.do/)
 # LAN InkPad Enhanced
 
 让 Android 手机在同一 Wi-Fi 下充当 Windows 浏览器的低延迟手写板。增强版支持将当前浏览器标签页通过 WebRTC 实时传到手机，并支持在画面上放大、平移和精确绘图。
